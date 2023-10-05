@@ -38,6 +38,8 @@ public class ArralistDemo {
 		ob.add("manu");
 		ob.add("ragu");
 		//traverse a list
+		
+		
 		Iterator<String>i=ob.iterator();
 		while(i.hasNext()) {
 			String nm=i.next();

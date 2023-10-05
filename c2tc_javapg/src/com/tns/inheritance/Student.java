@@ -14,7 +14,7 @@ public class Student extends Citizen{
 
 	
 	public Student(String name,long aadharNo,String address, long phno) {
-		super(name,aadharNo,address,phno);
+		super(name,aadharNo,address,phno);// acessing the parent class constructor
 		this.rollNo = rollNo;
 		this.collageName = collageName;
 	}

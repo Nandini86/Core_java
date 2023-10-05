@@ -2,10 +2,6 @@ package com.tns.inheritance;
 //Base class
 public class Citizen {
 	private String name;
-	@Override
-	public String toString() {
-		return "Citizen [name=" + name + ", aadharNo=" + aadharNo + ", address=" + address + ", phno=" + phno + "]";
-	}
 	private long aadharNo;
 	private String address;
 	private long phno;
@@ -46,5 +42,8 @@ public class Citizen {
 		this.phno = phno;
 	}
 	
-
+	@Override
+	public String toString() {
+		return "Citizen [name=" + name + ", aadharNo=" + aadharNo + ", address=" + address + ", phno=" + phno + "]";
+	}
 }

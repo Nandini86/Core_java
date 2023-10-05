@@ -18,6 +18,7 @@ public class VectorDemo {
 		v.add("white");
 		System.out.println("vector elements"+ v);
 		int size=v.size();
+		
 		System.out.println("size of vector"+ size);
 		int cap=v.capacity();
 		System.out.println("Default capacity"+cap);

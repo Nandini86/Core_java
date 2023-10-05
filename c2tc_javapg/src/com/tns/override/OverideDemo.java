@@ -7,6 +7,7 @@ public class OverideDemo {
 
 		Sbi ob=new Sbi();
 	System.out.println(	ob.getRateofIntrest());
+	
 //Rbi ob2=new Rbi();
 //System.out.println(	ob2.getRateofIntrest());
 	

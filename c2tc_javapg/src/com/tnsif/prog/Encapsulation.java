@@ -9,5 +9,7 @@ public class Encapsulation {
 	{
 		System.out.println("serial number"+serialnum+ "\t Name: "+name  +"\t Age :"+ age);
 	}
-
+public Encapsulation(){// explici default constructor
+	System.out.println("heelo");
+}
 }
