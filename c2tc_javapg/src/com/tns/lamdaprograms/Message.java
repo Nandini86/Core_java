@@ -3,5 +3,8 @@ package com.tns.lamdaprograms;
 // it has one abstract method
 public interface Message {
 	public String greet();
+	static  void hai() {
+		
+	}
 
 }

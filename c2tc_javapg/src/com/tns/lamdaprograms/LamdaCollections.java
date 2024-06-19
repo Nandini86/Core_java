@@ -7,6 +7,7 @@ public class LamdaCollections {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		ArrayList<Integer>li=new ArrayList<>();
+		
 		li.add(10);
 		li.add(33);
 		li.add(44);

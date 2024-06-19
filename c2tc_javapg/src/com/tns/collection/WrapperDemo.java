@@ -3,12 +3,12 @@ package com.tns.collection;
 public class WrapperDemo {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		// creating the object using the wrapper class
-		Integer intValue=1000;
-		// converting int value to string and assign it to string obj
-		String stringobj=intValue.toString();
-		System.out.println(stringobj.length());
+		// wrapping
+		int a=10;// primitive
+		Integer i= new Integer(a);// to object type
+		System.out.println("i is a object of type integer"+i);
+		// unwrapping
+		int unwrap=i.intValue();
 	}
 
 }

@@ -13,8 +13,7 @@ import java.util.Iterator;
 public class ArralistDemo {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
+		// TODO Auto-generated method stub	
 		ArrayList list1=new ArrayList();
 		System.out.println("check the list is empty or not"+list1.isEmpty());
 		System.out.println("Sizeof arraylist"+list1.size());

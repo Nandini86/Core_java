@@ -9,8 +9,10 @@ public class NestedTryCatch {
 		String anotherString="hello";
 		int y=6;
 		try {// outer try
+//			int arr[]=null;
+//			System.out.println(arr[3]);
 			try {
-				System.out.println(str.charAt(y));// exception occured
+				System.out.println((y));// exception occured
 			}
 			catch(ArithmeticException  ex) {
 				System.out.println("Airthemtion exception"+ex.getMessage());

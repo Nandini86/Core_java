@@ -6,7 +6,8 @@ public class StackDemo {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Stack<Integer> ob=new Stack<Integer>();
+		Stack <Integer> ob=new Stack<Integer>();
+		//Stack<Integer> ob=new Stack<Integer>();
 		ob.push(22);
 		ob.push(2);
 		ob.push(21);

@@ -17,9 +17,9 @@ public class Division {
 //		catch(InputMismatchException e) {
 //			System.out.println("Exception caught"+e.getMessage());	
 //		}
-//		catch(ArithmeticException e) {
-//			System.out.println("Exception caught"+e.getMessage());	
-//		}
+	catch(ArithmeticException e) {
+		System.out.println("Exception caught"+e.getMessage());	
+		}
 	finally{
 		System.out.println("Finally block executed");
 		
