@@ -7,10 +7,14 @@ public class EncapsulationDemo {
 		
 		Encapsulation obj= new Encapsulation();//created an object
 // classname obj_name= new ClasName();
-		obj.serialnum=22;// calling datamem by using obj
-		obj.name="ramya";
-		obj.age=13;
-		obj.show();
+//		obj.serialnum=22;// calling datamem by using obj
+//		obj.name="ramya";
+//		obj.age=13;
+		obj.setName("manu");
+		obj.setSerialnum(22);
+		obj.setAge(12);
+		System.out.println(obj);// object repsentation
+		//obj.show();
 	}
 
 }
