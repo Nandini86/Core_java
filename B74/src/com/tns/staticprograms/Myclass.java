@@ -4,7 +4,6 @@ public class Myclass {
 
 	private int section;// instance variable
 	private static int srNo;// static variable
-	
 	// static block
 	static {
 		System.out.println("----staticblock--------");
@@ -16,14 +15,11 @@ public class Myclass {
 		srNo++;
 		section++;
 	}
-	
-	
 	// static method
 		static void display() {
 			//System.out.println("section"+section);
 			System.out.println("serialNo"+srNo);
-		}
-		
+		}	
 	@Override
 	public String toString() {
 		return "Myclass [section=" + section + "]";

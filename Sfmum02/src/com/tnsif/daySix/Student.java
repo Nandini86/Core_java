@@ -45,15 +45,11 @@ public class Student  extends Citizen{
 
 	@Override
 	public String toString() {
-		return "Student [rollNo=" + rollNo + ", collageName=" + collageName + "]";
+		return "Student [rollNo=" + rollNo + ", collageName=" + collageName + ", getRollNo()=" + getRollNo()
+				+ ", getCollageName()=" + getCollageName() + ", getName()=" + getName() + ", getAdhaarNo()="
+				+ getAdhaarNo() + ", getAddress()=" + getAddress() + ", getPhno()=" + getPhno() + ", toString()="
+				+ super.toString() + ", getClass()=" + getClass() + ", hashCode()=" + hashCode() + "]";
 	}
-
-
-
-
-
-
-	
 
 
 
